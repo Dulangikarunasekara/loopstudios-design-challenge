@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="./src/styles/tailwind.css" rel="stylesheet">
+  <title>Frontend Mentor | Loopstudios landing page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="font-thin text-white">
+    <span class="font-bold absolute text-2xl px-3 pt-3">loopstudios</span>
+    <img src="src/styles/mobile/image-hero.jpg" alt="" class="h-[100vh] w-[100vw]">
+    <nav id="menu" class="hidden h-[100vh] bg-black absolute top-0 w-[100vw]">
+      <span class="font-bold font-md absolute text-2xl px-3 pt-3">loopstudios</span>
+      <div id="close-menu-button" class="md:hidden absolute top-0 right-0 p-3">
+        <button class="cursor-pointer">
+          <img src="./src/styles/images/icon-close.svg" alt="close-menu-icon">
+        </button>
+      </div>
+      <div class="flex items-center h-[100vh] w-[100vw]">
+        <div class="flex flex-col font-thin px-3">
+          <a href="#" class="text-white text-3xl"> ABOUT </a>
+          <a href="#" class="text-white text-3xl"> CAREERS </a>
+          <a href="#" class="text-white text-3xl"> EVENTS </a>
+          <a href="#" class="text-white text-3xl"> PRODUCTS </a>
+          <a href="#" class="text-white text-3xl"> SUPPORT</a>
+        </div>
+      </div>
+    </nav>
+    <div id="center-box" class="px-8 w-[100vw] h-[100vh] absolute top-0">
+      <div class="flex-col mt-56 border-2 text-4xl w-full p-8">
+        <p>IMMERSIVE</p>
+        <p>EXPERIENCES</p>
+        <p>THAT</p>
+        <p>DELIVER</p>
+      </div>
+    </div>
+
+    <div id="open-menu-button" class="md:hidden absolute top-0 right-0 p-3">
+      <button class="cursor-pointer"><img src="./src/styles/images/icon-hamburger.svg" alt=""></button>
+    </div>
+
+
+
+
+  </div>
+
+  <div class="text-center">
+    <img src="src/styles/mobile/image-interactive.jpg" class="w-[calc(100vw-60px)] m-auto left-0 right-0 mt-44">
+    <p class="text-4xl font-thin px-12 mt-12"> THE LEADER IN INTERACTIVE VR</p>
+    <p class="text-sm text-gray-500 px-12 font-medium mt-8">
+      Founded in 2011, Loopstudios has been producing world-class virtual reality
+      projects for some of the best companies around the globe. Our award-winning
+      creations have transformed businesses through digital experiences that bind
+      to their brand.
+    </p>
+  </div>
+
+
+  <div>
+    <p class="text-4xl font-thin px-12 mt-12 text-center">OUR CREATIONS</p>
+    <div class="flex  flex-col px-8 mt-8 text-3xl font-thin text-white ">
+      <div class="h-28 mt-8" style="background: linear-gradient(25deg, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 70%) no-repeat center top ,          
+        url('src/styles/mobile/image-deep-earth.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <div class=" flex flex-col absolute mt-8 px-6">
+          <div>DEEP</div>
+          <div>EARTH</div>
+        </div>
+      </div>
+
+      <div class="h-28 mt-8" style="background: linear-gradient(25deg, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 70%) no-repeat center top ,          
+        url('src/styles/mobile/image-night-arcade.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <div class=" flex flex-col absolute mt-8 px-6">
+          <div>NIGHT</div>
+          <div>ARCADE</div>
+        </div>
+      </div>
+
+      <div class="h-28 mt-8" style="background: linear-gradient(25deg, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 70%) no-repeat center top ,          
+        url('src/styles/mobile/image-soccer-team.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <div class=" flex flex-col absolute mt-8 px-6">
+          <div>SOCCER</div>
+          <div>TEAM VR</div>
+        </div>
+      </div>
+
+
+      <div class="h-28 mt-8" style="background: linear-gradient(25deg, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 70%) no-repeat center top ,          
+        url('src/styles/mobile/image-grid.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <div class=" flex flex-col absolute mt-8 px-6">
+          <div>THE</div>
+          <div>GRID</div>
+        </div>
+      </div>
+
+      <div class="h-28 mt-8" style="background: linear-gradient(25deg, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 70%) no-repeat center top ,          
+        url('src/styles/mobile/image-from-above.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <div class=" flex flex-col absolute mt-8 px-6">
+          <div>FROM UP</div>
+          <div>ABOVE VR</div>
+        </div>
+      </div>
+
+      <div class="h-28 mt-8" style="background: linear-gradient(25deg, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 70%) no-repeat center top ,          
+        url('src/styles/mobile/image-pocket-borealis.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <div class=" flex flex-col absolute mt-8 px-6">
+          <div>POCKET</div>
+          <div>BOREALIS</div>
+        </div>
+      </div>
+
+      <div class="h-28 mt-8" style="background: linear-gradient(25deg, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 70%) no-repeat center top ,          
+        url('src/styles/mobile/image-curiosity.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <div class=" flex flex-col absolute mt-8 px-6">
+          <div>THE</div>
+          <div>CURIOSITY</div>
+        </div>
+      </div>
+
+      <div class="h-28 mt-8" style="background: linear-gradient(25deg, rgba(0, 0, 0, 0.8) 40%, rgba(0, 0, 0, 0) 70%) no-repeat center top ,          
+        url('src/styles/mobile/image-fisheye.jpg'); background-size: cover; background-repeat: no-repeat;">
+        <div class=" flex flex-col absolute mt-8 px-6">
+          <div>MAKE IT</div>
+          <div>FISHEYE</div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="mt-8 flex m-auto justify-center">
+    <button class="border py-4 px-12 ">
+      <span class="tracking-widest font-medium text-lg"> SEE ALL</span>
+    </button>
+  </div>
+
+  <footer class="bg-black text-white flex  flex-col m-auto justify-center text-center py-12 mt-8">
+    <div class="flex flex-col">
+      <span class="font-bold text-2xl">loopstudios</span>
+      <div id="footer-links">
+        <div class="mt-8">About</div>
+        <div class="mt-8">Careers</div>
+        <div class="mt-8">Events</div>
+        <div class="mt-8">Products</div>
+        <div class="mt-8">Support</div>
+      </div>
+
+      <div id="social-media-links" class="flex m-auto justify-center bg-white w-full mt-8">
+        <img src="./src/styles/images/icon-facebook.svg" alt="" class="px-3">
+        <img src="./src/styles/images/icon-twitter.svg" alt="" class="px-3">
+        <img src="./src/styles/images/icon-pinterest.svg" alt="" class="px-3">
+        <img src="./src/styles/images/icon-instagram.svg" alt="" class="px-3">
+      </div>
+
+      <div class="text-xs text-gray-400 mt-4 pb-12">© 2021 Loopstudios. All rights reserved.</div>
+    </div>
+
+
+
+  </footer>
+  <!-- AboutFF
+  Careers
+  Events
+  Products
+  Support
+
+  Immersive experiences that deliver
+
+  The leader in interactive VR
+
+  Founded in 2011, Loopstudios has been producing world-class virtual reality
+  projects for some of the best companies around the globe. Our award-winning
+  creations have transformed businesses through digital experiences that bind
+  to their brand.
+
+  Our creations
+
+  See all
+
+  Deep earth
+  Night arcade
+  Soccer team VR
+  The grid
+  From up above VR
+  Pocket borealis
+  The curiosity
+  Make it fisheye
+
+  About
+  Careers
+  Events
+  Products
+  Support
+
+  © 2021 Loopstudios. All rights reserved. 
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script>
+    const openMenuButton = document.getElementById("open-menu-button");
+    const closeMenuButton = document.getElementById("close-menu-button");
+    const centerBox = document.getElementById("center-box");
+    const menu = document.getElementById("menu");
+
+    const showMenu = () => {
+      menu.style.display = "block";
+      centerBox.style.display = "none";
+      openMenuButton.style.display = "none";
+    }
+
+    const hideMenu = () => {
+      menu.style.display = "none";
+      openMenuButton.style.display = "block";
+      centerBox.style.display = "block";
+
+    }
+
+    openMenuButton.addEventListener("click", showMenu);
+    closeMenuButton.addEventListener("click", hideMenu);
+
+  </script>
+</body>
+
+</html>
